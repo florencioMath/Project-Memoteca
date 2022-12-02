@@ -17,7 +17,5 @@ export class CriarPensamentoComponent {
     alert('Pensamento salvo!');
   }
 
-  cancelarPensamento() {
-    alert('Pensamento cancelado!');
-  }
+  cancelarPensamento() {}
 }
