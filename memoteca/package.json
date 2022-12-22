@@ -7,10 +7,10 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d dist/memoteca"
   },
   "private": true,
-  "homepage": "https://florencioMath.github.io/memoteca",
+  "homepage": "https://florenciomath.github.io/Project-Memoteca/",
   "dependencies": {
     "@angular/animations": "^15.0.0",
     "@angular/common": "^15.0.0",
