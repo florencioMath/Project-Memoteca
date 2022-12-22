@@ -2,12 +2,13 @@ import { Pensamento } from './pensamento';
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
+import { enviroment } from 'src/environments/enviroment';
 
 @Injectable({
   providedIn: 'root',
 })
 export class PensamentoService {
-  private readonly API = 'http://localhost:3000/pensamentos';
+  private readonly API = enviroment.API;
   constructor(private http: HttpClient) {}
 
   listar(): Observable<Pensamento[]> {

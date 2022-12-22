@@ -1,6 +1,6 @@
 import { PensamentoService } from './../pensamento.service';
 import { Pensamento } from './../pensamento';
-import { Component, OnInit } from '@angular/core';
+import { Component, EnvironmentInjector, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-listar-pensamento',
