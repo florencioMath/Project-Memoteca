@@ -3,7 +3,7 @@
   [ngClass]="larguraPensamento()"
 >
   <img
-    src="/assets/imagens/{{ pensamento.modelo }}.png"
+    src="./assets/imagens/{{ pensamento.modelo }}.png"
     alt="Aspas coloridas"
   />
   <p class="conteudo">{{ pensamento.conteudo }}</p>
@@ -15,13 +15,13 @@
       class="botao-editar"
       routerLink="/pensamentos/editarPensamento/{{ pensamento.id }}"
     >
-      <img src="/assets/imagens/icone-editar.png" alt="Ícone de editar" />
+      <img src="./assets/imagens/icone-editar.png" alt="Ícone de editar" />
     </button>
     <button
       class="botao-excluir"
       routerLink="/pensamentos/excluirPensamento/{{ pensamento.id }}"
     >
-      <img src="/assets/imagens/icone-excluir.png" alt="Ícone de excluir" />
+      <img src="./assets/imagens/icone-excluir.png" alt="Ícone de excluir" />
     </button>
   </div>
 </div>
