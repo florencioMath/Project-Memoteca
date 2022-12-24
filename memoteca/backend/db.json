@@ -1,28 +1,22 @@
 {
   "pensamentos": [
     {
-      "id": "1",
+      "id": 1,
       "conteudo": "Que bom que vc veio",
       "autoria": "Matheus",
       "modelo": "modelo1"
     },
     {
-      "id": "2",
+      "id": 2,
       "conteudo": "Estudando Angular (editado)",
       "autoria": "Dev Alura",
       "modelo": "modelo1"
     },
     {
-      "id": "3",
+      "id": 3,
       "conteudo": "Angular é o melhor'",
       "autoria": "Dev Alura",
       "modelo": "modelo3"
-    },
-    {
-      "conteudo": "      adadada",
-      "autoria": "asd",
-      "modelo": "modelo1",
-      "id": "p2KEkTL"
     }
   ]
 }
