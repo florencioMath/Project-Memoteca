@@ -27,13 +27,13 @@ export class CriarPensamentoComponent implements OnInit {
   ngOnInit(): void {
     this.formulario = this.formBuilder.group({
       conteudo: ['Formulário reativo'],
-      autoria: [''],
+      autoria: ['Autor'],
       modelo: ['modelo1'],
     });
   }
 
   criarPensamento() {
-    this.service.criar(this.pensamento).subscribe(() => {
+    this.service.criar(this.formulario.value).subscribe(() => {
       this.router.navigate(['/listarPensamento']);
     });
   }
