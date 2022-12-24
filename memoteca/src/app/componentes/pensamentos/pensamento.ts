@@ -1,6 +1,6 @@
 export interface Pensamento {
-  id?: Number;
-  conteudo: String;
-  autoria: String;
-  modelo: String;
+  id?: number;
+  conteudo: string;
+  autoria: string;
+  modelo: string;
 }
