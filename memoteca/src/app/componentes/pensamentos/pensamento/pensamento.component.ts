@@ -1,5 +1,6 @@
 import { Pensamento } from './../pensamento';
 import { Component, Input } from '@angular/core';
+import { PensamentoService } from '../pensamento.service';
 
 @Component({
   selector: 'app-pensamento',
@@ -7,6 +8,8 @@ import { Component, Input } from '@angular/core';
   styleUrls: ['./pensamento.component.css'],
 })
 export class PensamentoComponent {
+  constructor(private service: PensamentoService) {}
+
   @Input() pensamento: Pensamento = {
     id: 0,
     conteudo: 'Angular course :)',
@@ -27,5 +30,9 @@ export class PensamentoComponent {
       return 'inativo';
     }
     return 'ativo';
+  }
+
+  atualizarFavorito() {
+    this.service.mudarFavorito(this.pensamento).subscribe();
   }
 }
