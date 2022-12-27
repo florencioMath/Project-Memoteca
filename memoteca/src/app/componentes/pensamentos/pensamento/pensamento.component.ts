@@ -12,6 +12,7 @@ export class PensamentoComponent {
     conteudo: 'Angular course :)',
     autoria: 'Matheus',
     modelo: 'modelo3',
+    favorito: false,
   };
 
   larguraPensamento(): string {
@@ -19,5 +20,12 @@ export class PensamentoComponent {
       return 'pensamento-g';
     }
     return 'pensamento-p';
+  }
+
+  mudarIconeFavorito(): string {
+    if (this.pensamento.favorito == false) {
+      return 'inativo';
+    }
+    return 'ativo';
   }
 }
