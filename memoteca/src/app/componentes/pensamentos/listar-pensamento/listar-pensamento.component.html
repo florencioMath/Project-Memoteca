@@ -27,11 +27,11 @@
         [listaFavoritos]="listaFavoritos"
       ></app-pensamento>
     </div>
-    <app-botao-carregar-mais
-      [haMaisPensamentos]="haMaisPensamentos"
-      (click)="carregarMaisPensamentos()"
-    ></app-botao-carregar-mais>
   </div>
+  <app-botao-carregar-mais
+    [haMaisPensamentos]="haMaisPensamentos"
+    (click)="carregarMaisPensamentos()"
+  ></app-botao-carregar-mais>
 </section>
 <ng-template #semPensamentos>
   <div class="ffinter sem-pensamentos">
