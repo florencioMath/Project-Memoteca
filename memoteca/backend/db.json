@@ -26,35 +26,35 @@
       "conteudo": "Angular é o melhor'",
       "autoria": "Dev Alura4",
       "modelo": "modelo3",
-      "favorito": true
+      "favorito": false
     },
     {
       "id": 5,
       "conteudo": "Angular é o melhor'",
       "autoria": "Dev Alura5",
       "modelo": "modelo3",
-      "favorito": false
+      "favorito": true
     },
     {
       "id": 6,
       "conteudo": "Angular é o melhor'",
       "autoria": "Dev Alura6",
       "modelo": "modelo3",
-      "favorito": true
+      "favorito": false
     },
     {
       "id": 7,
       "conteudo": "Angular é o melhor'",
       "autoria": "Dev Alura7",
       "modelo": "modelo3",
-      "favorito": true
+      "favorito": false
     },
     {
       "id": 8,
       "conteudo": "Angular é o melhor'",
       "autoria": "Dev Alura8",
       "modelo": "modelo3",
-      "favorito": true
+      "favorito": false
     }
   ]
 }
