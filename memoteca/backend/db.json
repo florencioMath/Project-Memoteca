@@ -19,7 +19,7 @@
       "conteudo": "Angular é o melhor'",
       "autoria": "Dev Alura",
       "modelo": "modelo3",
-      "favorito": true
+      "favorito": false
     },
     {
       "id": 4,
@@ -33,7 +33,7 @@
       "conteudo": "Angular é o melhor'",
       "autoria": "Dev Alura5",
       "modelo": "modelo3",
-      "favorito": true
+      "favorito": false
     },
     {
       "id": 6,
