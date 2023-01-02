@@ -26,13 +26,6 @@
       "conteudo": "Angular é o melhor'",
       "autoria": "Dev Alura4",
       "modelo": "modelo3",
-      "favorito": true
-    },
-    {
-      "id": 5,
-      "conteudo": "Angular é o melhor'",
-      "autoria": "Dev Alura5",
-      "modelo": "modelo3",
       "favorito": false
     },
     {
@@ -55,6 +48,13 @@
       "autoria": "Dev Alura8",
       "modelo": "modelo3",
       "favorito": false
+    },
+    {
+      "conteudo": "Teste no deploy do firebase.",
+      "autoria": "Matheus Florêncio",
+      "modelo": "modelo2",
+      "favorito": true,
+      "id": 9
     }
   ]
 }

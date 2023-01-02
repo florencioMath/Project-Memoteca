@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "project-memoteca": {
+      "hosting": {
+        "memoteca": [
+          "project-memoteca"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "project-memoteca"
+  }
+}
