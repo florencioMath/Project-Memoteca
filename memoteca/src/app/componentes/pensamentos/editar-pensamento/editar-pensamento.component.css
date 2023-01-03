@@ -106,6 +106,7 @@ input[type="radio"] {
   display: grid;
   place-content: center;
   border-radius: 50%;
+  cursor: pointer;
 }
 
 .custom-radio,
