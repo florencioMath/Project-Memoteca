@@ -1,6 +1,6 @@
 <h1 align="center" id="inicio">Memoteca</h1>
 
-## Seções do README
+# Seções do README
 <ul>
   <li><a href="#project">💻 Project</a></li>
   <li><a href="#technologies">🚀 Technologies</a></li>
@@ -8,13 +8,12 @@
   <li><a href="#devs">👩‍💻 Devs</a></li>
 </ul>
 
-## <a id="project">💻 Project</a>
-
-<p align="justify">
-...
+# <a id="project">💻 Project</a>
+<p>
+Throughout this course we will develop the "MemoTeca" project, your wall of thoughts. In it you can put quotes from books, music excerpts, and those cool phrases that you want to leave aside to post as captions on your selfies.
 </p>
 
-## <a id="technologies">🚀 Technologies</a>
+# <a id="technologies">🚀 Technologies</a>
 
 This project was developed with the following technologies:
 
@@ -22,14 +21,14 @@ This project was developed with the following technologies:
 - ...
 - ...
 
-## <a id="layout">🔖 Layout</a>
+# <a id="layout">🔖 Layout</a>
 
 Take a look at how it turned out:
 <br>
 
 ---
 
-## <a id="devs">👩‍💻 Dev</a> 
+# <a id="devs">👩‍💻 Dev</a> 
 
 <table>
   <tr>
