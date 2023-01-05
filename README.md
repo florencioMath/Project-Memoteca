@@ -17,9 +17,10 @@ Throughout this course we will develop the "MemoTeca" project, your wall of thou
 
 This project was developed with the following technologies:
 
-- ...
-- ...
-- ...
+- Angular
+  - Services
+  - HTTPClient
+- Backend
 
 # <a id="layout">🔖 Layout</a>
 
