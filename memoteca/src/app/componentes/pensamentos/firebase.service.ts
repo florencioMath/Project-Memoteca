@@ -5,6 +5,9 @@ import { getAnalytics } from 'firebase/analytics';
 // TODO: Add SDKs for Firebase products that you want to use
 // https://firebase.google.com/docs/web/setup#available-libraries
 
+import { getFirestore } from 'firebase/firestore';
+import { collection, getDocs } from '@firebase/firestore';
+
 @Injectable({
   providedIn: 'root',
 })
@@ -24,5 +27,13 @@ export class FirebaseService {
   // Initialize Firebase
   app = initializeApp(this.firebaseConfig);
   analytics = getAnalytics(this.app);
-  constructor() {}
+  db = getFirestore(this.app);
+
+  async getDataFirestore() {
+    const querySnapshot = await getDocs(collection(this.db, 'pensamentos'));
+    return querySnapshot;
+  }
+  constructor() {
+    console.log('Firebase from FirebaseService');
+  }
 }

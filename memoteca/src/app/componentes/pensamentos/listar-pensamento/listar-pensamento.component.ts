@@ -1,3 +1,4 @@
+import { FirebaseService } from './../firebase.service';
 import { Router } from '@angular/router';
 import { PensamentoService } from './../pensamento.service';
 import { Pensamento } from './../pensamento';
@@ -17,7 +18,11 @@ export class ListarPensamentoComponent implements OnInit {
   listaFavoritos: Pensamento[] = [];
   titulo: string = 'Meu Mural';
 
-  constructor(private service: PensamentoService, private router: Router) {}
+  constructor(
+    private service: PensamentoService,
+    private router: Router,
+    private firebaseService: FirebaseService
+  ) {}
 
   ngOnInit(): void {
     this.service
@@ -25,6 +30,8 @@ export class ListarPensamentoComponent implements OnInit {
       .subscribe((listaPensamentos) => {
         this.listaPensamentos = listaPensamentos;
       });
+
+    console.log(this.firebaseService.getDataFirestore());
   }
 
   carregarMaisPensamentos() {
