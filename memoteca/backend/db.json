@@ -4,14 +4,14 @@
       "id": 1,
       "conteudo": "Primeiro pensamento!",
       "autoria": "Matheus Florêncio",
-      "modelo": "modelo2",
+      "modelo": "modelo1",
       "favorito": true
     },
     {
       "id": 2,
       "conteudo": "Estudando Angular (editado)",
       "autoria": "Dev Alura",
-      "modelo": "modelo1",
+      "modelo": "modelo3",
       "favorito": true
     },
     {
@@ -40,7 +40,7 @@
       "conteudo": "Faça como um programador. Quando tudo está errado e confuso, apague tudo e recomece do zero.",
       "autoria": "Orlando Cordeiro",
       "modelo": "modelo3",
-      "favorito": true
+      "favorito": false
     },
     {
       "id": 7,
@@ -62,13 +62,6 @@
       "modelo": "modelo2",
       "favorito": false,
       "id": 9
-    },
-    {
-      "conteudo": "Teste no deploy do firebase.",
-      "autoria": "Matheus Florêncio",
-      "modelo": "modelo2",
-      "favorito": false,
-      "id": 10
     }
   ]
 }
