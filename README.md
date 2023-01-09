@@ -2,18 +2,18 @@
 
 # Seções do README
 <ul>
-  <li><a href="#project">💻 Project</a></li>
-  <li><a href="#technologies">🚀 Technologies</a></li>
-  <li><a href="#layout">🔖 Layout</a></li>
-  <li><a href="#devs">👩‍💻 Devs</a></li>
+  <li><a href="#project">Project</a></li>
+  <li><a href="#technologies">Technologies</a></li>
+  <li><a href="#layout">Layout</a></li>
+  <li><a href="#devs">Devs</a></li>
 </ul>
 
-# <a id="project">💻 Project</a>
+# <a id="project">Project</a>
 <p>
 Throughout this course we will develop the "MemoTeca" project, your wall of thoughts. In it you can put quotes from books, music excerpts, and those cool phrases that you want to leave aside to post as captions on your selfies.
 </p>
 
-# <a id="technologies">🚀 Technologies</a>
+# <a id="technologies">Technologies</a>
 
 This project was developed with the following technologies:
 
@@ -22,20 +22,45 @@ This project was developed with the following technologies:
   - HTTPClient
 - Backend
 
-# <a id="layout">🔖 Layout</a>
+# <a id="layout">Layout</a>
 
 Take a look at how it turned out:
+
+  <tr>
+    <td align="center">
+        <th>Adicionar Pensamento</th>
+      <img src="https://github.com/florencioMath/Project-Memoteca/blob/main/readmeFiles/memotecaAdicionarPensamento.gif?raw=true" alt="Adicionar Pensamento" />
+    </td>
+    <br>
+    <td align="center">
+        <th>Editar Pensamento</th>
+      <img src="https://github.com/florencioMath/Project-Memoteca/blob/main/readmeFiles/memotecaEditarPensamento.gif?raw=true" alt="Editar Pensamento" />
+    </td>
+  </tr>
+    <br>
+    <td align="center">
+        <th>Favoritar Pensamento</th>
+      <img src="https://github.com/florencioMath/Project-Memoteca/blob/main/readmeFiles/memotecaFavoritarPensamento.gif?raw=true" alt="Favoritar Pensamento" />
+    </td>
+  </tr>
+    <br>
+    <td align="center">
+        <th>Excluir Pensamento</th>
+      <img src="https://github.com/florencioMath/Project-Memoteca/blob/main/readmeFiles/memotecaExcluirPensamento.gif?raw=true" alt="Excluir Pensamento" />
+    </td>
+  </tr>
 <br>
 
 ---
 
-# <a id="devs">👩‍💻 Dev</a> 
+# <a id="devs">Dev</a> 
 
 <table>
   <tr>
     <td align="center">
     <a text-decoration="none" href="https://github.com/1matheusflorencio">
-      <img src="https://avatars.githubusercontent.com/u/68713424?s=400&u=62c303b85a95a013cccd6cbd6084952fbc06a4db&v=4" width="150px;" alt="Foto do Matheus Florêncio no GitHub"/>       <br>
+      <img src="https://avatars.githubusercontent.com/u/68713424?s=400&u=62c303b85a95a013cccd6cbd6084952fbc06a4db&v=4" width="150px;" alt="Foto do Matheus Florêncio no GitHub"/>
+      <br>
         <sub>
           <b>Matheus Florêncio</b> <br>
         </sub>
