@@ -1,10 +1,19 @@
+<a name="readme-top"></a>
 <h1 align="center" id="inicio">Memoteca</h1>
 
-# Seções do README
+# README Sections
 <ul>
   <li><a href="#project">Project</a></li>
   <li><a href="#technologies">Technologies</a></li>
   <li><a href="#layout">Layout</a></li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#installation">Installation</a></li>
+      </ul>
+    </li>
+  <li><a href="#license">License</a></li>
   <li><a href="#devs">Devs</a></li>
 </ul>
 
@@ -50,7 +59,62 @@ This project was developed with the following technologies:
     </td>
   </tr>
   </details>
+  
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 <br>
+
+
+<!-- GETTING STARTED -->
+## Getting Started
+
+To get a local copy up and running follow these simple example steps.
+
+### Prerequisites
+
+This is a list of things you need to use the software and how to install them.
+* npm
+  ```sh
+  npm install npm@latest -g
+  ```
+* JSON Server
+  ```sh
+  npm install -g json-server
+  ```
+
+### Installation
+
+_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
+
+1. Clone the repo
+   ```sh
+   https://github.com/florencioMath/Project-Memoteca.git
+   ```
+2. Install NPM packages
+   ```sh
+   npm install
+   ```
+3. Enter the folder Project-Memoteca/memoteca
+   ```sh
+   ng serve
+   ```
+4. Enter the folder Project-Memoteca/memoteca/backend
+   ```sh
+   npm start
+   ```
+5. Open your browser on http://localhost:4200/
+   
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<br>
+
+
+<!-- LICENSE -->
+## License
+
+Distributed under the MIT License. See `LICENSE.txt` for more information.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
 
 # <a id="devs">Dev</a> 
 
@@ -66,7 +130,7 @@ This project was developed with the following technologies:
     </a>
     </td>
       <td align="center" width="150px">
-        <p>Info sobre o Dev</p>
+        <p>Contacts</p>
           <a href="https://www.linkedin.com/in/matheus-flor%C3%AAncio/" target="_blank"><img height="30px" width="120px" src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a>
           <br>
           <a href="https://www.instagram.com/florenciomath/" target="_blank"><img height="30px" width="120px" src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" target="_blank"></a>
@@ -74,4 +138,4 @@ This project was developed with the following technologies:
     </tr>
 </table>
 
-<p width="100%" align="end"><a href="#inicio">🔝 Ir para o Início</a></p>
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
