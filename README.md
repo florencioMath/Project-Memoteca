@@ -21,37 +21,36 @@ This project was developed with the following technologies:
   - Services
   - HTTPClient
 - Backend
+  - JSON Server
 
 # <a id="layout">Layout</a>
 
-Take a look at how it turned out:
-
+<details>
+<summary>Take a look at how it turned out:</summary>
+  <br>
   <tr>
     <td align="center">
-        <th>Adicionar Pensamento</th>
+        <p align="center">Adicionar Pensamento</p>
       <img src="https://github.com/florencioMath/Project-Memoteca/blob/main/readmeFiles/memotecaAdicionarPensamento.gif?raw=true" alt="Adicionar Pensamento" />
     </td>
     <br>
     <td align="center">
-        <th>Editar Pensamento</th>
+        <p align="center">Editar Pensamento</p>
       <img src="https://github.com/florencioMath/Project-Memoteca/blob/main/readmeFiles/memotecaEditarPensamento.gif?raw=true" alt="Editar Pensamento" />
     </td>
-  </tr>
     <br>
     <td align="center">
-        <th>Favoritar Pensamento</th>
+        <p align="center">Favoritar Pensamento</p>
       <img src="https://github.com/florencioMath/Project-Memoteca/blob/main/readmeFiles/memotecaFavoritarPensamento.gif?raw=true" alt="Favoritar Pensamento" />
     </td>
-  </tr>
     <br>
     <td align="center">
-        <th>Excluir Pensamento</th>
+        <p align="center">Excluir Pensamento</p>
       <img src="https://github.com/florencioMath/Project-Memoteca/blob/main/readmeFiles/memotecaExcluirPensamento.gif?raw=true" alt="Excluir Pensamento" />
     </td>
   </tr>
+  </details>
 <br>
-
----
 
 # <a id="devs">Dev</a> 
 
