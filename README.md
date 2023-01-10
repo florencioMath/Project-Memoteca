@@ -88,7 +88,7 @@ This is a list of things you need to use the software and how to install them.
 
 ### Installation
 
-_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
+_Below is an example of how you can install and set up the app._
 
 1. Clone the repo
    ```sh
