@@ -1,7 +1,10 @@
 <a name="readme-top"></a>
-<h1 align="center" id="inicio">Memoteca</h1>
+<div align="center">
+<img src="https://github.com/florencioMath/Project-Memoteca/blob/main/readmeFiles/logo-memoteca.png?raw=true" alt="Memoteca logo" />
+</div>
 
-# README Sections
+<!-- TABLE OF CONTENTS -->
+## Table of Contents
 <ul>
   <li><a href="#project">Project</a></li>
   <li><a href="#technologies">Technologies</a></li>
@@ -14,16 +17,17 @@
       </ul>
     </li>
   <li><a href="#license">License</a></li>
-  <li><a href="#devs">Devs</a></li>
+  <li><a href="#developer">Developer</a></li>
 </ul>
 
-# <a id="project">Project</a>
+<!-- PROJECT -->
+## <a id="project">Project</a>
 <p>
-Throughout this course we will develop the "MemoTeca" project, your wall of thoughts. In it you can put quotes from books, music excerpts, and those cool phrases that you want to leave aside to post as captions on your selfies.
+In this course, the "MemoTeca" project was developed. A wall of thoughts. In it you can put quotes from books, excerpts from songs and thoughts, being able to edit, favorite and delete what is placed.
 </p>
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-# <a id="technologies">Technologies</a>
-
+## <a id="technologies">Technologies</a>
 This project was developed with the following technologies:
 
 - Angular
@@ -31,8 +35,10 @@ This project was developed with the following technologies:
   - HTTPClient
 - Backend
   - JSON Server
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-# <a id="layout">Layout</a>
+<!-- LAYOUT -->
+## <a id="layout">Layout</a>
 
 <details>
 <summary>Take a look at how it turned out:</summary>
@@ -59,9 +65,8 @@ This project was developed with the following technologies:
     </td>
   </tr>
   </details>
-  
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-<br>
 
 
 <!-- GETTING STARTED -->
@@ -116,7 +121,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 
 
-# <a id="devs">Dev</a> 
+## <a id="developer">Developer</a> 
 
 <table>
   <tr>
